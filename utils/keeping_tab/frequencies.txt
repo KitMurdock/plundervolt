@@ -1,0 +1,22 @@
+0.3GHz (not used but as a starting reference for grep)
+0.4GHz
+0.5GHz
+0.6GHz
+0.7GHz
+0.8GHz
+0.9GHz
+1GHz
+1.1GHz
+1.2GHz
+1.3GHz
+1.4GHz
+1.5GHz
+1.6GHz
+1.7GHz
+1.8GHz
+1.9GHz
+2GHz
+2.1GHz
+2.2GHz
+2.3GHz
+2.4GHz
