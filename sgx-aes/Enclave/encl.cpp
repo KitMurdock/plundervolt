@@ -258,7 +258,7 @@ uint64_t fault_it(int iterations)
 
 void enclave_calculation(int iterations, int64_t offset)
 {
-	// calculate the unvervolting values to send to the msr 
+	// calculate the undervolting values to send to the msr 
 	plane0_return = wrmsr_value(0, 0);
 	plane2_return = wrmsr_value(0, 2);
 	plane0_offset = wrmsr_value(offset, 0);
