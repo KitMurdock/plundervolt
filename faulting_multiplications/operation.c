@@ -20,7 +20,7 @@ int undervolting_finished=0;
 uint64_t plane0_zero;
 uint64_t plane2_zero;
 
-typedef struct calcuation_info_t
+typedef struct calculation_info_t
 {
 	char max_or_fixed_op1;
 	char max_or_fixed_op2;
