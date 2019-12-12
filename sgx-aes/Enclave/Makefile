@@ -6,7 +6,7 @@ SIGNER		  = sgx_sign
 LINUX_SGX       = ~/sgx-step-dpl/linux-sgx/common/inc
 INCLUDE       += -I$(SGX_SDK)/include/ -I$(SGX_SDK)/include/tlibc  -I$(SGX_SDK)/include/ipp -Iinternal/
 
-T_CFLAGS	  = $(CFLAGS) -maes -fvisibility=hidden -fpie -fstack-protector -g -Os -mavx2 -march=haswell -Wpsabi -maes -O0
+T_CFLAGS	  = $(CFLAGS) -maes -fvisibility=hidden -fpie -fstack-protector -g -mavx2 -march=haswell -Wpsabi -maes -O0
 U_CFLAGS	  = $(CFLAGS) -fvisibility=hidden -fpie -fstack-protector -g 
 AR_FLAGS	  = rcs
 OBJECTS		  = encl.o 
