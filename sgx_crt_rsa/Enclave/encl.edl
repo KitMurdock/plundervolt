@@ -1,0 +1,13 @@
+enclave {
+	
+	trusted {
+		public uint64_t multiply_ecall(int iterations);
+		public uint8_t rsa_dec_ecall([out] uint8_t result[256], int iterations);
+		public uint8_t rsa_init_ecall();
+		public uint8_t rsa_clean_ecall();
+	};
+	
+	untrusted {
+	 	void ocall_print_string([in, string] const char *str);
+	};
+};
