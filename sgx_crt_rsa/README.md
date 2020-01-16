@@ -1,4 +1,4 @@
-# Example IV.B: Full  Key  Extraction  from  RSA-CRT  Decryption/Signaturein SGX using IPP Crypto
+# Example IV.B: Full Key Extraction from  RSA-CRT  Decryption/Signature in SGX using IPP Crypto
 
 As usual, you need SGX-Step. As usual, we assume it is in `../sgx-step/` - adapt the Makefile (`LIBSGXSTEP_DIR`) if needed. We also assume the SGX-SDK is correctly setup and the environment sourced.
 

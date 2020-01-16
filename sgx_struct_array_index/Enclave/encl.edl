@@ -1,0 +1,19 @@
+enclave {
+
+    include "ref_le.h"
+
+    struct struct_foo_t {
+        uint32_t foo[8];
+        uint8_t foo2;
+    }; 
+
+	trusted {
+		public void my_ecall(void);
+        public void init_wl(void);
+		public int get_launch_token([user_check] size_t *it, sgx_measurement_t mrsigner, int provision);
+	};
+	
+	untrusted {
+		void ocall_print_string([in, string] const char *str);
+	};
+};
