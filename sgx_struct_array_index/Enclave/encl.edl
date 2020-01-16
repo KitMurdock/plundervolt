@@ -1,0 +1,16 @@
+enclave {
+
+	struct struct_foo_t {
+        /* Basic types can be used in structure. */
+        uint32_t foo[8];
+		uint8_t foo2;
+    };
+
+	trusted {
+		public void my_ecall(void);
+	};
+	
+	untrusted {
+		void ocall_print_string([in, string] const char *str);
+	};
+};
